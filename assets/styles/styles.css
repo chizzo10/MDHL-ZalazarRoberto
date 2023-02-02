@@ -1,0 +1,144 @@
+* {
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+}
+
+.main-content{
+   margin-left: 100px;
+}
+
+/*INDEX*/
+
+/*contac*/
+
+.text{
+   margin-left: 100px;
+}
+
+.text p {
+   margin: 25px 5px;
+}
+
+
+
+
+/*RULES*/
+body {
+   content: "";
+   background: url("/assets/IMG/hockey_1.jpg") no-repeat;
+   background-size: cover;
+}
+
+
+
+
+.navbar  {
+   display: flex;
+   justify-content: end;
+   background-color: black;
+   padding: 10px;
+   
+}
+
+.navbar a{
+justify-content: end;
+}
+
+.nav-title {
+   
+   color: white;
+   margin-right: 580px;
+   margin-left: 25px;
+   
+
+}
+
+
+
+.nav-enlace {
+   display: inline-block;
+   background: rgb(94, 19, 233);
+   color: rgb(255, 252, 252);
+   border-radius: 3px;
+   padding: 5px 10px;
+   margin: 2px;
+   text-decoration: none;
+}
+
+
+.nav-enlace:hover {
+   background-color: green;
+}
+
+
+.h1-container {
+
+   margin: 30px 0 15px 30px;
+}
+
+
+
+
+
+.logo img {
+   
+   width: 200px;
+   margin-left: 70px;
+   align-items: flex-start;
+   
+}
+
+
+.flex-container {
+   display: flex;
+   padding: 25px;
+   margin: 10px 30px;
+   font-size: larger;
+   width: 95%;
+   background-color: rgba(105, 133, 228, 0.58);
+   box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px;
+   border-radius: 10px;
+   backdrop-filter: blur(5px);
+
+}
+
+article li {
+   margin: 25px 5px;
+}
+
+
+/*game Info*/
+
+
+
+
+
+.game-details {
+   background-color: black;
+   border-radius: 5px;
+   box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px;
+   padding: 25px;
+   margin-right: 250px;
+
+}
+
+
+.game-details p{
+   color: white;
+}
+table {
+   width: auto;
+   height: auto;
+   background-color: black;
+   color: white;
+   border-collapse: collapse;
+   box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px;
+   margin-bottom: 50px;
+}
+
+td, th {
+   width: auto;
+   border: 1px solid rgb(34, 34, 36);
+   padding: 20px 15px ;
+}
