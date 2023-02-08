@@ -4,129 +4,138 @@
    box-sizing: border-box;
 }
 
-.main-content{
-   margin-left: 100px;
-}
 
-/*INDEX*/
+/*nabar*/
 
-/*contac*/
 
-.text{
-   margin-left: 100px;
-}
+.navbar {
 
-.text p {
-   margin: 25px 5px;
+   display: flex;
+   background-color: black;
+   
 }
 
 
 
+nav {
+   
+   display: flex;
+   padding: 10px;
+   align-items: center;
+   margin-left: 300px;
+   
+   
+   
+}
 
-/*RULES*/
-body {
+nav a {
+   margin: 5px;
+   border: 2px solid #20e2d7;
+   text-decoration: none;
+   margin: 5px;
+   padding: 10px;
+   border-radius: 4px;
+   color: #fff;
+   overflow: hidden;
+   
+
+  
+   
+
+}
+
+ a:hover{
+   background-color: #20e2d7;
+
+}
+
+.maps-title,
+.nav-title,
+.h2-container {
+
+   align-self: flex-start;
+   font-size: 1.5rem;
+   color: rgb(248, 225, 46);
+   border-right: 2px inset rgb(255, 255, 255);
+   padding: 1rem;
+   text-shadow: -1px 1px 3px black, -2px 2px 2px rgb(195 76 52), 0 0 10px rgb(91 163 155);
+   text-transform: uppercase;
+   font-weight: 300;
+   margin-left: 20px;
+
+}
+
+
+/*logo*/
+
+.logo img{
+
+   width: 200px;
+   margin: 100px 5px 10px 30px;
+   align-items: flex-start;
+}
+
+.logo:hover {
+
+   transform: translateY(-3%);
+}
+
+
+/*Home*/
+
+.home {
    content: "";
-   background: url("/assets/IMG/hockey_1.jpg") no-repeat;
+   background: url("/assets/IMG/hockey_2.jpg") no-repeat;
+   background-attachment: fixed;
    background-size: cover;
 }
 
-
-
-
-.navbar  {
-   display: flex;
-   justify-content: end;
-   background-color: black;
-   padding: 10px;
-   
-}
-
-.navbar a{
-justify-content: end;
-}
-
-.nav-title {
-   
-   color: white;
-   margin-right: 580px;
-   margin-left: 25px;
-   
-
-}
-
-
-
-.nav-enlace {
+.main-home, .main-about, .main-contact, .main-rules, .main-registration {
    display: inline-block;
-   background: rgb(94, 19, 233);
-   color: rgb(255, 252, 252);
-   border-radius: 3px;
-   padding: 5px 10px;
-   margin: 2px;
-   text-decoration: none;
-}
-
-
-.nav-enlace:hover {
-   background-color: green;
-}
-
-
-.h1-container {
-
-   margin: 30px 0 15px 30px;
-}
-
-
-
-
-
-.logo img {
-   
-   width: 200px;
-   margin-left: 70px;
-   align-items: flex-start;
-   
-}
-
-
-.flex-container {
-   display: flex;
    padding: 25px;
-   margin: 10px 30px;
+   margin-top: 1rem;
    font-size: larger;
-   width: 95%;
-   background-color: rgba(105, 133, 228, 0.58);
-   box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px;
+   width: 80%;
+   background-color: rgba(181, 217, 243, 0.58);
+   box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
    border-radius: 10px;
    backdrop-filter: blur(5px);
 
 }
 
-article li {
-   margin: 25px 5px;
+article{
+   margin: 30px 10px 30px 30px;
+}
+
+/*about*/
+
+.about {
+   content: "";
+   background: url("/assets/IMG/hockey_3.jpg") no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+/*contact*/
+
+.contact {
+   content: "";
+   background: url("/assets/IMG/design1_image1.jpg") no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+/*game_info*/
+.game {
+   content: "";
+   background: url("/assets/IMG/hockey_1.jpg") no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+
 }
 
 
-/*game Info*/
 
-
-
-
-
-.game-details {
-   background-color: black;
-   border-radius: 5px;
-   box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px;
-   padding: 25px;
-   margin-right: 250px;
-
-}
-
-
-.game-details p{
-   color: white;
-}
 table {
    width: auto;
    height: auto;
@@ -134,11 +143,122 @@ table {
    color: white;
    border-collapse: collapse;
    box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px;
-   margin-bottom: 50px;
+   margin: 10px 10px 10px 30px;
 }
 
-td, th {
-   width: auto;
+td,
+th {
+
    border: 1px solid rgb(34, 34, 36);
-   padding: 20px 15px ;
+   padding: 20px 15px;
 }
+
+.game-details {
+
+ width: 36%;
+ padding: 30px 15px 10px 5px;
+}
+
+.details1,
+.details2 {
+
+   background-color: rgb(255, 255, 255, 0.58);
+   border-radius: 10PX;
+   margin: 30px 30px;
+   padding: 10px;
+}
+
+.flex-container {
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: flex-start;
+   margin: 2rem;
+}
+
+.main-content,
+.container-maps {
+   display: flex;
+   padding: 25px;
+   margin-top: 1rem;
+   font-size: larger;
+   width: 80%;
+   background-color: rgba(181, 217, 243, 0.58);
+   box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
+   border-radius: 10px;
+   backdrop-filter: blur(5px);
+}
+
+
+.maps {
+   width: 180px;
+   margin: 30px;
+   border-radius: 6px;
+   overflow: hidden;
+   box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.2);
+   cursor: default;
+   transition: all 400ms ease;
+}
+
+.maps:hover {
+   box-shadow: 5px 5px 20px rgb(0, 0, 0.4);
+   transform: translateY(-3%);
+}
+
+.content-maps {
+   display: flex;
+
+}
+
+/*rules*/
+
+.rules {
+   content: "";
+   background: url("/assets/IMG/hockey_1.jpg") no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+/*registration*/
+
+.date{
+   display: flex;
+   flex-wrap: wrap;
+   width: 900px;
+   background-color: #fcfdfe;
+   color: white;
+   padding: 30px;
+   margin: auto;
+   margin-top: 100px;
+   border-radius: 4px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form, .gender-detail, .grade, .school, .positions, .Uniform-Size, .article, .parent, .button{
+   display: flex;
+   width: 100%;
+   background:#064b90 ;
+   padding: 10px;
+   border-radius: 4px;
+   margin-bottom: 16px;
+   border: 1px solid #1f53c5;
+   font-size: 18px;
+
+}
+
+
+.gender-detail{
+   background-color: #24303c;
+   border-radius: 4px;
+}
+
+input{
+   margin-right: 15px;
+}
+
+.title-register{
+   font-size: 40px;
+}
+
